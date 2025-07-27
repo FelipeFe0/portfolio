@@ -44,7 +44,7 @@ a{
 }
 
 h1{ 
-    font-size: 5vw;
+    font-size: 3vw;
     position: relative;
     z-index: 1;
     color: aliceblue;
@@ -52,7 +52,7 @@ h1{
 
 
 h2{
-    font-size: 3vw;
+    font-size: 1.9vw;
     position: relative;
     z-index: 1;
     color: aliceblue;
@@ -64,13 +64,11 @@ h2{
     background-image: url(../img/fundo3.jpg);
     background-size: cover;
     background-position: center;
-    padding: 12vh 5vw;
-    justify-content: center;
-    align-items: center;
+    padding: 60vh 5vw;
     position: relative;
     width: 100%;
-    gap: 1vw;
     flex-direction: column;
+    box-shadow: 0 8px 20px rgba(75, 44, 32, 0.6);
 }
 
 #inicio::before {
@@ -83,7 +81,7 @@ h2{
 
 #sobre{
     display: flex;
-    padding: 4vh 5vw;
+    padding: 15vh 5vw;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -92,11 +90,20 @@ h2{
 }
 
 .apresentacao{
+    display: flex;
     width: 50%;
+    flex-direction: column;
+    gap: 3vw;
+}
+
+.nome-apresentacao{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
 }
 
 .container-img{
-    width: 50%;  
+    width: 45%;  
     border-radius: 50px;
     margin-left: auto;   
     object-fit: cover;
@@ -111,7 +118,7 @@ h2{
 
 #sobre p{
     color: aliceblue;
-    font-size: 3vw;
+    font-size: 1.7vw;
     align-items: center;
     font-style:oblique;
 }
@@ -125,6 +132,8 @@ h2{
     padding: 30px;
     width: 100%;
     flex-wrap: wrap;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+
 }
 
 
@@ -132,6 +141,7 @@ h2{
     display: flex;
     padding: 8vh 5vw;
     width: 100%;
+    gap: 10vw;
     flex-direction: column;
     justify-content: center;
 }
@@ -145,7 +155,7 @@ h2{
     margin-top: 15vw;
     border: solid;
     background-color: #3d1700;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
     border-radius: 30px;
     gap: 1.2vw;
     padding: 0.5vw;
@@ -162,6 +172,7 @@ h2{
 #Projetos h2{
     color: aliceblue;
     background-color: #3d1700;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     width: 10%;
     border-radius: 10px;
     padding: 1.5vh 1.5vw;
@@ -197,6 +208,7 @@ h2{
 form{
     display: flex;
     flex-direction: column;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
     gap: 0.1vw;
     border-style:dashed;
     border-radius: 50px;
