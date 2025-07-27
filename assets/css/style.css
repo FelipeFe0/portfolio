@@ -139,7 +139,7 @@ h2{
 
 #Projetos{
     display: flex;
-    padding: 8vh 5vw;
+    padding: 12vh 5vw;
     width: 100%;
     gap: 10vw;
     flex-direction: column;
