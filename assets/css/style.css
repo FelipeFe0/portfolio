@@ -147,7 +147,7 @@ h2{
     background-color: #3d1700;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     border-radius: 30px;
-    gap: 0.5vw;
+    gap: 1.2vw;
     padding: 0.5vw;
 }
 
@@ -274,8 +274,12 @@ footer p{
       width: 100%;
     }
 
-    #Projetos{
+    #inicio{
         padding: 15vh 5vw;
+    }
+
+    #Projetos{
+        padding: 12vh 5vw;
     }
 
     #Contato{
