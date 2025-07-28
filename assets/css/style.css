@@ -343,7 +343,7 @@ section{
 
   .Proj-img img {
     width: 45vw;
-    height: 35vw;
+    height: 40vw;
   }
 
     
@@ -364,7 +364,7 @@ section{
 }
 
     #Contato p{
-        font-size:10vw;
+        font-size: 8vw;
         order: -1;
         text-align: center;
     }
@@ -383,7 +383,7 @@ section{
 
     .form{
         flex-direction: column;
-        gap: 25vw;
+        gap: 15vw;
     }
 
     footer{
