@@ -325,7 +325,7 @@ section{
 }
 
 .proj-img{
-    width: 60%;
+    width: 40vh 60vw;
 }
 
 #Contato{
@@ -341,7 +341,7 @@ section{
         font-size: 4vw;
     }
     form{
-        padding: 8vh 4vw;
+        padding: 8vh 8vw;
     }
     
 
