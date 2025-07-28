@@ -73,7 +73,7 @@ h2{
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(75, 44, 32, 0.6);  
+  background: rgba(75, 44, 32, 0.8);  
 }
 
 .apresentacao{
@@ -323,12 +323,16 @@ section{
         padding: 12vh 5vw;
 }
 
-#Projetos .proj-img{
+#Projetos h2{
+    font-size: 10vw;
+}
+
+#Projetos .Proj-img{
     display: flex;
     align-items: center;
 }
 
-.proj-img{
+.Proj-img{
     width: 100%;
 }
 
@@ -342,7 +346,6 @@ section{
     }
 
     input, button {
-        width: 100%;
         font-size: 8vw;
     }
     
