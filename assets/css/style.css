@@ -375,6 +375,7 @@ section{
     
     form{
         padding: 8vh 4vw;
+        align-items: center;
     }
     
     form ::placeholder {
@@ -383,7 +384,7 @@ section{
 
     .form{
         flex-direction: column;
-        gap: 15vw;
+        gap: 10vw;
     }
 
     footer{
