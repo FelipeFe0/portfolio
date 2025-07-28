@@ -56,34 +56,26 @@ h2{
 }
 
 
-#inicio{
+#sobre{
     display: flex;
+    padding: 15vh 5vw;
     background-image: url(../img/fundo3.jpg);
     background-size: cover;
     background-position: center;
     padding: 60vh 5vw;
-    position: relative;
-    width: 100%;
-    flex-direction: column;
     box-shadow: 0 8px 20px rgba(75, 44, 32, 0.6);
-}
-
-#inicio::before {
-  content: "";
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(75, 44, 32, 0.6);  
-}
-
-
-#sobre{
-    display: flex;
-    padding: 15vh 5vw;
     justify-content: center;
     align-items: center;
     position: relative;
     width: 100%;
     gap: 1vw;
+}
+
+#sobre::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(75, 44, 32, 0.6);  
 }
 
 .apresentacao{
