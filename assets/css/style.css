@@ -334,6 +334,7 @@ section{
 
     #Contato p{
         font-size:10vw;
+        text-align: center;
     }
 
     input, button {
@@ -348,9 +349,5 @@ section{
     form ::placeholder {
         font-size: 4vw;
     }
-    .form{
-        text-align: center;
-    }
-}
     
-}
+
