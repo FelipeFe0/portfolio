@@ -324,9 +324,8 @@ section{
         align-itens: center;
 }
 
-#Projetos h2{
-    display: flex;
-    align-self: flex-start;
+.proj-img{
+    width: 60%;
 }
 
 #Contato{
