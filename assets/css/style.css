@@ -9,10 +9,6 @@ body{
    font-family: 'Roboto', sans-serif;
 }
 
-#Projetos, Contato{
-    background: linear-gradient(to bottom, #4b2c20, #e0e0e0);
-}
-
 header{
     display: flex;
     justify-content: space-between;
@@ -129,6 +125,10 @@ h2{
     z-index: 1;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
 
+}
+
+#Projetos, #Contato{
+    background: linear-gradient(to bottom, #4b2c20, #e0e0e0);
 }
 
 
