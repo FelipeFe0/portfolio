@@ -79,7 +79,7 @@ h2{
 }
 
 .apresentacao{
-    flex: 1 1 300px;
+    flex: 1 1 25%;
     max-width: 100%;
     display: flex;
     width: 50%;
@@ -94,7 +94,8 @@ h2{
 }
 
 .container-img{
-    flex: 1 1 300px; 
+    flex: 1 1 25%; 
+    align-self: flex-end;
     max-width: 100%;
     border-radius: 50px;
     margin-left: auto;   
@@ -166,9 +167,9 @@ h2{
 
 #Projetos h2{
     color: aliceblue;
+    align-self: flex-start;
     background-color: #3d1700;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    width: 10%;
     border-radius: 10px;
     padding: 1.5vh 1.5vw;
     font-size: 3.5vw;
