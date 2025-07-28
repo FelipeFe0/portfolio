@@ -58,7 +58,6 @@ h2{
 
 #sobre{
     display: flex;
-    flex-wrap: wrap;
     padding: 15vh 5vw;
     background-image: url(../img/fundo3.jpg);
     background-size: cover;
@@ -79,8 +78,6 @@ h2{
 }
 
 .apresentacao{
-    flex: 1 1 25%;
-    max-width: 100%;
     display: flex;
     width: 50%;
     flex-direction: column;
@@ -94,9 +91,6 @@ h2{
 }
 
 .container-img{
-    flex: 1 1 25%; 
-    align-self: flex-end;
-    max-width: 100%;
     border-radius: 50px;
     margin-left: auto;   
     object-fit: cover;
@@ -273,39 +267,55 @@ footer p{
 /* === Responsividade === */
 
 @media(max-width: 480px){
-    header{
+header{
         align-items: center;
         width: 100%;
         padding: 3.5vh;
-    }
+}
 
-    header a{
+header a{
         font-size: 4.5vw;
-    }
+}
 
-    section{
+section{
       width: 100%;
-    }
+}
 
-    #sobre {
-    width:100%;
-    }
+#sobre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1vw;
+  padding: 15vh 5vw;
+  background-image: url(../img/fundo3.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+}
 
-    #Projetos{
+.apresentacao,
+.container-img {
+  flex: 1 1 30px; 
+  max-width: 100%;
+}
+
+.container-img {
+  object-fit: cover;
+  margin-left: auto;
+}
+   
+#Projetos{
         padding: 12vh 5vw;
         align-itens: center;
         min-height: 120vh;
-        padding: 60px 20px;
-    }
+        padding: 60vh 20vw;
+}
 
-    .proj-img{
-        width: 55%;
-        flex: 1 1 100%;
-    }
-
-    #Contato{
-        padding: 15vh 5vw;
-    }
+#Contato{
+    padding: 15vh 5vw;
+}
 
     #Contato form{
         display: flex;
