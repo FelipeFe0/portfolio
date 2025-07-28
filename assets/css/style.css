@@ -320,7 +320,6 @@ section{
 
 #Contato{
     padding: 15vh 5vw;
-    align-items: center;
 }
 
     #Contato p{
@@ -338,6 +337,9 @@ section{
 
     form ::placeholder {
         font-size: 4vw;
+    }
+    .form{
+        text-align: center;
     }
 }
     
