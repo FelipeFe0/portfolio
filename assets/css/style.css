@@ -329,7 +329,7 @@ section{
 }
 
 .proj-img{
-    width: 400vh 600vw;
+    width: 100%;
 }
 
 #Contato{
@@ -343,7 +343,7 @@ section{
 
     input, button {
         width: 100%;
-        font-size: 6vw;
+        font-size: 8vw;
     }
     
     form{
