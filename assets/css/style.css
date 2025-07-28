@@ -58,6 +58,7 @@ h2{
 
 #sobre{
     display: flex;
+    flex-wrap: wrap;
     padding: 15vh 5vw;
     background-image: url(../img/fundo3.jpg);
     background-size: cover;
@@ -114,6 +115,7 @@ h2{
 #borda-sobre{
     background-color: #3d1700;
     display: flex;
+    flex: 1 1 30%;
     align-items: center;
     border-style:dashed;
     border-radius: 50px;
@@ -280,17 +282,9 @@ footer p{
       width: 100%;
     }
 
-    #sobre{
-        flex: 1 1 100%;
-    }
-
-    #borda-sobre{
-        display: flex;
-        flex-wrap: wrap;
-    }
-
     #Projetos{
         padding: 12vh 5vw;
+        align-itens: center;
         min-height: 120vh;
         padding: 60px 20px;
     }
