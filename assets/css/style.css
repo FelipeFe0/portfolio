@@ -343,7 +343,7 @@ section{
 
   .Proj-img img {
     width: 45vw;
-    height: 40vw;
+    height: 35vw;
   }
 
     
@@ -352,11 +352,11 @@ section{
 }
 
 #Projetos h3{
-    font-size: 4vw;
+    font-size: 5vw;
 }
 
 #Projetos a{
-    font-size: 4vw;
+    font-size: 5vw;
 }
 
 #Contato{
