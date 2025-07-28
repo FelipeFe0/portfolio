@@ -6,8 +6,11 @@
 }
 
 body{
-   background: linear-gradient(to bottom, #4b2c20, #e0e0e0);
    font-family: 'Roboto', sans-serif;
+}
+
+#Projetos, Contato{
+    background: linear-gradient(to bottom, #4b2c20, #e0e0e0);
 }
 
 header{
@@ -328,6 +331,10 @@ section{
         width: 100%;
         font-size: 4vw;
     }
+    form{
+        padding: 4vw;
+    }
+    
 
     form ::placeholder {
         font-size: 4vw;
