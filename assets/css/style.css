@@ -343,10 +343,11 @@ section{
 
     input, button {
         width: 100%;
-        font-size: 4vw;
+        font-size: 6vw;
     }
+    
     form{
-        padding: 15vh 10vw;
+        padding: 10vh 5vw;
     }
     
     form ::placeholder {
