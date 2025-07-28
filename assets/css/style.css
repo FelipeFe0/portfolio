@@ -62,7 +62,6 @@ h2{
     background-image: url(../img/fundo3.jpg);
     background-size: cover;
     background-position: center;
-    padding: 60vh 5vw;
     box-shadow: 0 8px 20px rgba(75, 44, 32, 0.6);
     justify-content: center;
     align-items: center;
@@ -120,6 +119,8 @@ h2{
     border-radius: 50px;
     padding: 30px;
     width: 100%;
+    position: fixed;
+    z-index: 1;
     flex-wrap: wrap;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
 
