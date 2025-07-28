@@ -58,7 +58,7 @@ h2{
 
 #sobre{
     display: flex;
-    padding: 60vh 5vw;
+    padding: 40vh 5vw;
     background-image: url(../img/fundo3.jpg);
     background-size: cover;
     background-position: center;
@@ -119,9 +119,8 @@ h2{
     border-radius: 50px;
     padding: 30px;
     width: 100%;
-    position: fixed;
+    position: relative;
     z-index: 1;
-    flex-wrap: wrap;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
 
 }
