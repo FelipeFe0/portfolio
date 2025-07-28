@@ -364,6 +364,7 @@ section{
 
     #Contato p{
         font-size:10vw;
+        order: -1;
         text-align: center;
     }
 
