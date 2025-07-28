@@ -265,7 +265,7 @@ footer p{
 
 /* === Responsividade === */
 
-@media(max-width: 480px){
+@media(max-width: 600px){
     header{
         align-items: center;
         width: 100%;
@@ -280,12 +280,24 @@ footer p{
       width: 100%;
     }
 
+    #sobre{
+        flex: 1 1 100%;
+    }
+
+    #borda-sobre{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     #Projetos{
         padding: 12vh 5vw;
+        min-height: 120vh;
+        padding: 60px 20px;
     }
 
     .proj-img{
         width: 55%;
+        flex: 1 1 100%;
     }
 
     #Contato{
