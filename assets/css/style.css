@@ -382,6 +382,7 @@ section{
     }
 
     .form{
+        flex-direction: column;
         gap: 25vw;
     }
 
