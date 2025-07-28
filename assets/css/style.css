@@ -5,10 +5,6 @@
     color: #3d1700;
 }
 
-body{
-   font-family: 'Roboto', sans-serif;
-}
-
 header{
     display: flex;
     justify-content: space-between;
@@ -156,6 +152,9 @@ h2{
     padding: 0.5vw;
 }
 
+.proj-h2 i{
+    color: aliceblue;
+}
 
 #Projetos img{
     display: flex;
@@ -323,7 +322,7 @@ section{
    
 #Projetos{
     padding: 15vh 5vw;
-    gap: 5vw;
+    gap: 10vw;
 }
 
 #center-proj{
@@ -331,7 +330,7 @@ section{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 10vw;
+    gap: 25vw;
   }
 
   .Proj-img {
@@ -383,8 +382,9 @@ section{
     }
 
     .form{
+        display: flex;
+        align-items: center;
         flex-direction: column;
-        gap: 10vw;
     }
 
     footer{
@@ -399,4 +399,4 @@ footer i{
 footer p{
     font-size: 3vw;
 }
-
+}
