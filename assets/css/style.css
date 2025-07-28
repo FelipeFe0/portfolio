@@ -213,10 +213,16 @@ form ::placeholder{
     font-size: 2vw;
 }
 
-.form{
+.form {
     display: flex;
     justify-content: center;
     gap: 2vw;
+    flex-wrap: wrap; 
+}
+
+form, .form p {
+    flex: 1 1 300px;
+    min-width: 250px;
 }
 
 input{
@@ -319,8 +325,27 @@ section{
 
     #Contato form{
         display: flex;
-        width: 70%;
         padding: 5vw;
     }
+    .form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form, .form p {
+        width: 100%;
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    input, button {
+        width: 100%;
+        font-size: 4vw;
+    }
+
+    form ::placeholder {
+        font-size: 4vw;
+    }
+}
     
 }
