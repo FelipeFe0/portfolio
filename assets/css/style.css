@@ -324,9 +324,13 @@ section{
         padding: 12vh 5vw;
 }
 
-#Projetos .Proj-img{
+#center-proj{
     justify-content: center;
     align-items: center;   
+}
+
+.Proj-img{
+    width: 60%; 
 }
     
 #Projetos h2{
