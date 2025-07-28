@@ -291,10 +291,6 @@ section{
   align-items: flex-start;
   gap: 1vw;
   padding: 15vh 5vw;
-  background-image: url(../img/fundo3.jpg);
-  background-size: cover;
-  background-position: center;
-  position: relative;
   width: 100%;
 }
 
@@ -312,10 +308,9 @@ section{
 #Projetos{
         padding: 12vh 5vw;
         align-itens: center;
-        min-height: 120vh;
 }
 
-#Projetos{
+#Projetos h2{
     display: flex;
     align-self: flex-start;
 }
