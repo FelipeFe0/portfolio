@@ -58,7 +58,7 @@ h2{
 
 #sobre{
     display: flex;
-    padding: 25vh 5vw;
+    padding: 15vh 5vw;
     background-image: url(../img/fundo3.jpg);
     background-size: cover;
     background-position: center;
@@ -128,7 +128,7 @@ h2{
 
 #Projetos{
     display: flex;
-    padding: 12vh 5vw;
+    padding: 15vh 5vw;
     width: 100%;
     gap: 10vw;
     flex-direction: column;
@@ -269,20 +269,20 @@ footer p{
     header{
         align-items: center;
         width: 100%;
-        padding: 2.5vh;
-        font-size: 3.5;
+        padding: 3.5vh;
+        font-size: 3.4vw;
     }
 
     section{
       width: 100%;
     }
 
-    #inicio{
-        padding: 15vh 5vw;
-    }
-
     #Projetos{
         padding: 12vh 5vw;
+    }
+
+    .proj-img{
+        width: 55%;
     }
 
     #Contato{
