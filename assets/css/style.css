@@ -327,13 +327,13 @@ section{
     font-size: 10vw;
 }
 
-#Projetos .Proj-img{
+#Projetos img{
     display: flex;
     align-items: center;
 }
 
 .Proj-img{
-    width: 20vh 35vw;
+    width: 200px;
 }
 
 #Contato{
@@ -350,7 +350,7 @@ section{
     }
     
     form{
-        padding: 10vh 5vw;
+        padding: 8vh 4vw;
     }
     
     form ::placeholder {
