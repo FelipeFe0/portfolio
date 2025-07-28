@@ -321,7 +321,11 @@ section{
    
 #Projetos{
         padding: 12vh 5vw;
-        align-itens: center;
+}
+
+#Projetos .proj-img{
+    display: flex;
+    align-items: center;
 }
 
 .proj-img{
