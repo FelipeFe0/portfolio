@@ -329,6 +329,7 @@ section{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 8vw;
   }
 
@@ -339,9 +340,8 @@ section{
   }
 
   .Proj-img img {
-    width: 100%;
+    width: 45vw;
     height: auto;
-    border-radius: 20px;
   }
 
     
