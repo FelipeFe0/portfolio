@@ -265,6 +265,7 @@ footer{
 
 footer i{
     display: flex;
+    text-align: center;
     font-size: 2vw;
     color: aliceblue;
 }
