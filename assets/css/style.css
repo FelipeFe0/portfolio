@@ -270,6 +270,7 @@ footer i{
 }
 
 footer p{
+    text-align: center;
     color: aliceblue;
     font-size: 2vw;
 }
