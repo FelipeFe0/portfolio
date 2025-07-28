@@ -302,6 +302,17 @@ section{
   width: 100%;
 }
 
+#sobre h1{
+    text-align: center;
+    font-size: 5vw;
+}
+#sobre h2{
+    font-size: 3vw;
+}
+#sobre p{
+   font-size: 2.5vw;
+}
+
 .apresentacao,
 .container-img {
   flex: 1 1 100%;
