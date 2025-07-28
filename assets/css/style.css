@@ -90,6 +90,7 @@ h2{
 }
 
 .container-img{
+    width: 45%;
     border-radius: 50px;
     margin-left: auto;   
     object-fit: cover;
@@ -319,19 +320,8 @@ section{
     padding: 15vh 5vw;
 }
 
-    #Contato form{
-        display: flex;
-        padding: 5vw;
-    }
-    .form {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    form, .form p {
-        width: 100%;
-        font-size: 5vw;
-        text-align: center;
+    #Contato p{
+        font-size:10vw;
     }
 
     input, button {
