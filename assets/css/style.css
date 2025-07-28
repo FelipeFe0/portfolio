@@ -324,16 +324,7 @@ section{
 }
 
 #Projetos h2{
-    font-size: 6vw;
-}
-
-#Projetos img{
-    display: flex;
-    align-items: center;
-}
-
-.Proj-img{
-    width: 200px;
+    font-size: 5vw;
 }
 
 #Contato{
