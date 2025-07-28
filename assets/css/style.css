@@ -282,6 +282,44 @@ footer p{
       width: 100%;
     }
 
+    #sobre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1vw;
+  padding: 15vh 5vw;
+  background-image: url(../img/fundo3.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+}
+
+.apresentacao,
+.container-img {
+  flex: 1 1 300px; /* ← Agora pode quebrar */
+  max-width: 100%;
+}
+
+.container-img {
+  object-fit: cover;
+  margin-left: auto;
+}
+
+#sobre::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(75, 44, 32, 0.6);
+  z-index: 0;
+}
+
+#sobre > * {
+  z-index: 1;
+}
+
+
     #Projetos{
         padding: 12vh 5vw;
         align-itens: center;
