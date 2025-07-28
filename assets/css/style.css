@@ -16,7 +16,7 @@ header{
     width: 100%;
     padding: 2vh;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     background-color: #3d1700;
     box-shadow: 0 8px 20px rgba(75, 44, 32, 0.6);
     align-items: center;
@@ -270,7 +270,10 @@ footer p{
         align-items: center;
         width: 100%;
         padding: 3.5vh;
-        font-size: 3.4vw;
+    }
+
+    header a{
+        font-size: 4.5vw;
     }
 
     section{
