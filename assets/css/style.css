@@ -346,7 +346,7 @@ section{
     }
 
     input, button {
-        font-size: 8vw;
+        height: 8vW;
     }
     
     form{
