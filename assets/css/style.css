@@ -323,6 +323,11 @@ section{
         padding: 12vh 5vw;
 }
 
+#Projetos .Proj-img{
+    justify-content: center;
+    align-items: center;   
+}
+    
 #Projetos h2{
     font-size: 5vw;
 }
