@@ -333,7 +333,7 @@ section{
 }
 
 .Proj-img{
-    width: 100%;
+    width: 20vh 35vw;
 }
 
 #Contato{
@@ -360,5 +360,17 @@ section{
     .form{
         gap: 25vw;
     }
+
+    footer{
+    padding: 1.5vw;
     
+}
+
+footer i{
+    font-size: 3vw;
+}
+
+footer p{
+    font-size: 3vw;
+}
 
