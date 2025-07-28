@@ -58,6 +58,7 @@ h2{
 
 #sobre{
     display: flex;
+    flex-wrap: wrap; 
     padding: 15vh 5vw;
     background-image: url(../img/fundo3.jpg);
     background-size: cover;
@@ -91,6 +92,7 @@ h2{
 
 .container-img{
     width: 45%;
+    
     border-radius: 50px;
     margin-left: auto;   
     object-fit: cover;
@@ -113,6 +115,7 @@ h2{
 #borda-sobre{
     background-color: #3d1700;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     border-style:dashed;
     border-radius: 50px;
@@ -297,13 +300,8 @@ section{
 
 .apresentacao,
 .container-img {
-  flex: 1 1 30px; 
-  max-width: 100%;
-}
-
-.container-img {
-  object-fit: cover;
-  margin-left: auto;
+  flex: 1 1 100%;
+  
 }
    
 #Projetos{
@@ -318,6 +316,7 @@ section{
 
 #Contato{
     padding: 15vh 5vw;
+    align-items: center;
 }
 
     #Contato p{
