@@ -322,7 +322,7 @@ section{
 }
    
 #Projetos{
-        padding: 12vh 5vw;
+        padding: 15vh 5vw;
 }
 
 #center-proj{
@@ -330,7 +330,7 @@ section{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 8vw;
+    gap: 12vw;
   }
 
   .Proj-img {
@@ -341,12 +341,20 @@ section{
 
   .Proj-img img {
     width: 45vw;
-    height: auto;
+    height: 25vw;
   }
 
     
 #Projetos h2{
     font-size: 5vw;
+}
+
+#Projetos h3{
+    font-size: 4vw;
+}
+
+#Projetos a{
+    font-size: 4vw;
 }
 
 #Contato{
