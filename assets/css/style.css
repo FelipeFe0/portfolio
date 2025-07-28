@@ -330,18 +330,19 @@ section{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 12vw;
+    gap: 8vw;
   }
 
   .Proj-img {
     width: 90%; 
     margin: 5vw auto; 
+    gap: 8vw;
     padding: 3vw; 
   }
 
   .Proj-img img {
     width: 45vw;
-    height: 25vw;
+    height: 40vw;
   }
 
     
