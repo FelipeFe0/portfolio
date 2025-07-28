@@ -176,6 +176,7 @@ h2{
     width: 10%;
     border-radius: 10px;
     padding: 1.5vh 1.5vw;
+    font-size: 3.5vw;
     width: 100%;
 }
 
@@ -199,7 +200,7 @@ h2{
 
 #Contato{
     display: flex;
-    padding: 10vh 5vw;
+    padding: 15vh 5vw;
     width: 100%;
     flex-direction: column;
     gap: 3vh;    
