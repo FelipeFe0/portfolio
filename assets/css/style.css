@@ -127,7 +127,7 @@ h2{
 
 }
 
-#Projetos, #Contato{
+.gradiente-continuo{
     background: linear-gradient(to bottom, #4b2c20, #e0e0e0);
 }
 
@@ -331,7 +331,7 @@ section{
         font-size: 4vw;
     }
     form{
-        padding: 4vw;
+        padding: 8vh 4vw;
     }
     
 
