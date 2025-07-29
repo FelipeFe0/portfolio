@@ -240,7 +240,14 @@ button{
     background-color: #3d1700;
     border-radius: 10px;
     color: aliceblue;
+    cursor: pointer;
+    transition: 0.3s
     font-size: 2vw;
+}
+
+button:disabled{
+    cursor: not-allowed;
+    background: #555b69;
 }
 
 .form p{
