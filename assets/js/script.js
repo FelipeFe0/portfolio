@@ -1,29 +1,29 @@
 document.addEventListener('DOMContentLoaded', function () {
   const form = document.getElementById('envio');
-  const mensagem = document.getElementById('mensagem');
+  const resposta = document.getElementById('resposta');
 
   form.addEventListener('submit', function (e) {
-    e.preventDefault(); 
+    e.preventDefault();
     const nome = document.getElementById('nome').value.trim();
     const email = document.getElementById('email').value.trim();
     const mensagemTexto = document.getElementById('mensagem').value.trim();
 
     if (nome === '' || email === '' || mensagemTexto === '') {
-      mensagem.textContent = 'Por favor, preencha todos os campos.';
-      mensagem.style.color = 'red';
+      resposta.textContent = 'Por favor, preencha todos os campos.';
+      resposta.style.color = 'red';
     } else {
-      emailjs.send("service_v7kzksk", "__ejs-test-mail-service__", {
+      emailjs.send("service_v7kzksk", "template_q57nipa", {
         nome: nome,
         email: email,
         mensagem: mensagemTexto
-      }).then(function(response) {
-        mensagem.textContent = 'Mensagem enviada com sucesso!';
-        mensagem.style.color = 'green';
-        form.reset(); 
-      }, function(error) {
-        mensagem.textContent = 'Erro ao enviar. Tente novamente.';
-        mensagem.style.color = 'red';
-        console.log(error);
+      }).then(function () {
+        resposta.textContent = 'Mensagem enviada com sucesso!';
+        resposta.style.color = 'green';
+        form.reset();
+      }, function (error) {
+        resposta.textContent = 'Erro ao enviar. Tente novamente.';
+        resposta.style.color = 'red';
+        console.error(error);
       });
     }
   });
