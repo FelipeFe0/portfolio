@@ -20,4 +20,10 @@ class FormSumbit {
   }
 }
 
-const formSumbit = new FormSumbit();
+const formSumbit = new FormSumbit({
+  form: "[data-form]",
+  button: "[data-button]",
+  success: "<h2 class="success">Mensagem enviada!</h2>",
+  error: "<h2 class="error">Não foi possivel enviar sua mensagem!</h2>",
+});
+formSubmit.init();
